@@ -18,8 +18,7 @@ This is a first full-stack project, built specifically to get real, hands-on exp
 - Axios — API calls
 
 **AI**
-- Google Gemini API (free tier) — reads typed text *or* a photo directly and extracts structured assignment details (title, course, due date, priority) in one step, no separate OCR needed
-
+- Google Gemini API (free tier) — reads typed text, PDFs, and photos directly with no separate OCR step; Word documents get their text extracted first, then sent through the same pipeline
 **Tooling**
 - Visual Studio Community
 - Git + GitHub
@@ -34,7 +33,7 @@ This is a first full-stack project, built specifically to get real, hands-on exp
 **Planned:**
 - [ ] Mark assignments complete
 - [ ] User authentication (ASP.NET Core Identity)
-- [ ] AI extraction: paste text or upload a photo, auto-fill assignment details via Gemini
+- [ ] AI extraction: paste text, or upload a document, PDF, or photo — auto-fill assignment details via Gemini
 - [ ] Automatic priority scoring based on due date and course weight
 - [ ] Dashboard polish (sorting, filtering, urgency indicators)
 
