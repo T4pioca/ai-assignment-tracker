@@ -4,3 +4,11 @@ GET {{AssignmentTracker.Server_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+POST https://localhost:7206/api/assignments
+Content-Type: application/json
+
+{
+  "title": "Read Chapter 4",
+  "course": "History 101",
+  "dueDate": "2026-09-15"
+}
