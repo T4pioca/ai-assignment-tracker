@@ -24,18 +24,6 @@ This is a first full-stack project, built specifically to get real, hands-on exp
 - Visual Studio Community
 - Git + GitHub
 
-## Project structure
-ai-assignment-tracker/
-├── AssignmentTracker.Server/ # ASP.NET Core Web API backend
-│ ├── Controllers/ # API endpoints (AssignmentsController)
-│ ├── Models/ # Data models (Assignment)
-│ ├── Data/ # AppDbContext (EF Core)
-│ └── Migrations/ # EF Core migration history
-└── client/ # React frontend (Vite)
-└── src/
-├── api/ # API call wrappers
-└── App.jsx # Main UI
-
 ## Features
 
 **Working now:**
